@@ -10,4 +10,4 @@ jobs:
     steps:
     - run: echo ${{ env.env_var }}
       env:
-        env_var: “This is a step var”
+        env_var: “This is  step var”
