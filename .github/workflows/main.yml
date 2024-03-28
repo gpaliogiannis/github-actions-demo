@@ -2,7 +2,8 @@ name: CI
 on: [push, workflow_dispatch]
 env:
   env_var: ${{ vars.REPO_VAR }}
-jobs: test:
+jobs: 
+ test:
     env:
       env_var: “This is a job var”
     runs-on: ubuntu-latest
